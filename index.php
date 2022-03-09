@@ -8,6 +8,15 @@
     <title><?= get_bloginfo('site_name')?></title>
     <?php wp_head(); ?>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-68E98P95NG"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-68E98P95NG');
+    </script>
 </head>
 
 <body <?php body_class(); ?>>
@@ -24,13 +33,16 @@
                             <a class="nav-link" aria-current="page" href="#importancia">O curso</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#parceiros">Parceiros</a>
+                            <a class="nav-link" aria-current="page" href="#parceiros">Parceiro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#modulos">Módulos</a>
+                            <a class="nav-link" aria-current="page" href="#modulos">Módulo</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#professores">Professores</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#depoimentos">Depoimentos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#cta">Inscreva-se</a>
@@ -51,7 +63,7 @@
                 <div class="hero-content">
                         <h3>ABBC apresenta:</h3>
                         <h1>PROGRAMA DE <b>LIDERANÇA FEMININA</b></h1>
-                        <p>Em parceria com Fin4She e Center for Leadership Studies do Brasil</p>
+                        <p>Em parceria com Fin4She</p>
                         <p class="formacao">Formação personalizada para mulheres que buscam transformar a sua posição no mercado financeiro e corporativo</p>
                     </div>
                 </div>
@@ -64,7 +76,8 @@
         <div class="container link-cta">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
-                    <a class="cta" href="https://conteudos.abbc.org.br/formulario_lideranca_feminina">INSCREVA-SE</a>
+                    <!-- <a class="cta" href="https://conteudos.abbc.org.br/formulario_lideranca_feminina">INSCREVA-SE</a> -->
+                    <a class="cta" href="#cta">INSCREVA-SE</a>
                 </div>
             </div>
         </div>
@@ -79,7 +92,7 @@
                 <div class="col-12 col-md-6 o-curso">
                     <p>Embora cada vez mais preparadas, as mulheres no Brasil ocupam apenas 37,4% dos cargos gerenciais, segundo os dados IBGE.</p>
                     <p>O Programa de Liderança Feminina da Associação Brasileira de Bancos visa apoiar o desenvolvimento do protagonismo das mulheres, com embasamento técnico e comportamental.</p>
-                    <p>Sob a chancela da ABBC e a curadoria da consultoria Fin4She e do Center for Leadership Studies do Brasil, o curso traz módulos com grandes especialistas, cases e interação entre as participantes.</p>
+                    <p>Sob a chancela da ABBC e a curadoria da consultoria Fin4She, o curso traz módulos com grandes especialistas, cases e interação entre as participantes.</p>
                 </div>
             </div>
             <div class="row justify-content-around icones">
@@ -107,14 +120,14 @@
         <div class="container max">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6 d-md-flex align-items-start flex-column justify-content-center">
-                    <h2>Parceiros</h2>
-                    <p>Nosso conteúdo programático foi desenhado em parceria com dois centros de referência em liderança:</p>
+                    <h2>Parceiro</h2>
+                    <p>Nosso conteúdo programático foi desenhado em parceria com um centro de referência em liderança:</p>
                 </div>
                 <div class="col-12 col-md-6">
                     <img src="<?= get_template_directory_uri() ?>/assets/img/FINASHE.png" alt="" />
                     <p>Plataforma para quem busca se conectar com a equidade de gênero de uma forma inspiradora.  A Fin4She acredita que a capacitação é o caminho para atingirmos os patamares desejados. Quando as mulheres assumem cargos de liderança é muito importante que se sintam preparadas e conectadas com este papel, pois como líderes estão constantemente influenciando, impactando e inspirando pessoas.</p>
-                    <img src="<?= get_template_directory_uri() ?>/assets/img/CLS_BRASIL.png" alt="" />
-                    <p>Centro de soluções, difusão e estudos de liderança, usa o modelo de Liderança Situacional – criado pelo Dr. Paul Hersey, aplicado em mais de 14 milhões de líderes em todo o mundo e implantado em mais de 70% das empresas Fortune 500 (EUA), com aproximação prática e flexível.</p>
+                    <!-- <img src="<?= get_template_directory_uri() ?>/assets/img/CLS_BRASIL.png" alt="" />
+                    <p>Centro de soluções, difusão e estudos de liderança, usa o modelo de Liderança Situacional – criado pelo Dr. Paul Hersey, aplicado em mais de 14 milhões de líderes em todo o mundo e implantado em mais de 70% das empresas Fortune 500 (EUA), com aproximação prática e flexível.</p> -->
                 </div>
             </div>
         </div>
@@ -122,13 +135,13 @@
 
     <section id="modulos">
         <div class="header">
-            <p>MÓDULOS</p>
+            <p>MÓDULO</p>
         </div>
         <div class="programa">
             <div class="container max nosso-programa">
                 <div class="row">
                     <div class="col-12 text-center">
-                        <p>Nosso programa está disponível em dois níveis:</p>
+                        <p>Nosso programa está disponível no seguinte módulo:</p>
                     </div>
                 </div>
             </div>
@@ -136,47 +149,34 @@
         <div class="container max info-modulos">
             <div class="row">
                 <div class="col-12 col-md-6 modulo-1 d-md-flex align-items-start flex-column justify-content-center order-one">
-                    <h2>Liderança Nível 1<br>20 horas</h2>
-                    <p class="info">Ideal para profissionais com até cinco anos de experiência em gestão de pessoas</p>
-                    <p class="date">Início do curso: 8 de novembro</p>
-                    <a href="https://drive.google.com/file/d/19tRUWLaT5wOLfB_FDvSC_RpAceP3gzWz/view?usp=sharing" target="_blank" class="horarios">CONFIRA O CRONOGRAMA</a>
+                    <h2>Liderança</h2>
+                    <p class="info">Horários das aulas: 8h30 às 10h:</p>
+                    <p class="date">Início do curso: 4 de abril</p>
                 </div>
                 <div class="col-12 col-md-6 modulo-info order-two">
 
-                    <p class="titulo">Personal branding</p>
+                    <p class="titulo">04/04 - Personal Branding</p>
                     <p class="descricao">Construindo e fortalecendo sua marca pessoal</p>
 
-                    <p class="titulo">Eneagrama</p>
+                    <p class="titulo">05/04 – Eneagrama</p>
                     <p class="descricao">O poder do autoconhecimento</p>
 
-                    <p class="titulo">Poder da comunicação assertiva e Comunicação Não Violenta (CNV) </p>
-                    <p class="descricao">Utilizando a comunicação a seu favor</p>
+                    <p class="titulo">07/04 - Design your life</p>
+                    <p class="descricao">Pensando a carreira dentro da sua vida</p>
 
-                    <p class="titulo">Protagonismo-você na liderança da sua vida </p>
+                    <p class="titulo">11/04 - Jornada da C-Level</p>
+                    <p class="descricao">Caminhos de uma jornada desafiadora e de oportunidades</p>
+
+                    <p class="titulo">12/04 - Protagonismo: você na liderança da sua vida</p>
                     <p class="descricao">Ampliando a autoconsciência</p>
 
-                    <p class="titulo">Liderança do futuro</p>
+                    <p class="titulo">14/04 - Liderança do Futuro</p>
                     <p class="descricao">A pluralidade do papel das novas lideranças</p>
-
-                    <p class="titulo">Equidade na prática</p>
-                    <p class="descricao">Expandindo a visão da equidade</p>
-
-                    <p class="titulo">Preparação para utilizar o modelo Liderança Situacional® </p>
-                    <p class="descricao">Aprimorando a habilidade de Diagnóstico, Adaptabilidade, Comunicação e Gestão</p>
-
-                    <p class="titulo">Feedback e Produtividade</p>
-                    <p class="descricao">Avaliando os resultados sobre dar e receber feedback e o conceito de meta SMART</p>
-
-                    <p class="titulo">Trabalhando os indicadores Maturidade e Situação. Apresentação do Modelo Liderança Situacional</p>
-                    <p class="descricao">Mudanças no ambiente físico, psicossocial e nos métodos e curva prescritiva de Liderança Situacional</p>
-
-                    <p class="titulo">Análise dos formulários e pesquisas a partir do trabalho preparatório</p>
-                    <p class="descricao">Elaboração do Plano de Ação, de aplicação imediata</p>
 
 
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-12 col-md-6 modulo-info order-four">
 
                     <p class="titulo">Personal branding</p>
@@ -226,7 +226,7 @@
                     <div class="w-100">
                         <a href="https://drive.google.com/file/d/19tRUWLaT5wOLfB_FDvSC_RpAceP3gzWz/view?usp=sharing" target="_blank" class="horarios">CONFIRA O CRONOGRAMA</a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -265,6 +265,11 @@
                             <p class="funcao">Co-fundadora da Fin4She</p>
                         </div>
                         <div class="slide text-center">
+                            <img src="<?= get_template_directory_uri() ?>/assets/img/prof/monalisa-gomes.jpeg" alt="">
+                            <p class="nome">Monalisa Gomes</p>
+                            <p class="funcao">Country manager Latam, Espanha e Portugal da Schauer Agrotronic e conselheira consultiva da Edmond Soluções e Tecnologia - Green Fintech</p>
+                        </div>
+                        <!-- <div class="slide text-center">
                             <img src="<?= get_template_directory_uri() ?>/assets/img/prof/luana.png" alt="">
                             <p class="nome">Luana Ozemela</p>
                             <p class="funcao">CEO da DIMA</p>
@@ -278,6 +283,44 @@
                             <img src="<?= get_template_directory_uri() ?>/assets/img/prof/sabrinamello.png" alt="">
                             <p class="nome">Sabrina Mello</p>
                             <p class="funcao">Fonoaudióloga, coaching de comunicação e sócia-diretora da ArtInsight</p>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="depoimentos">
+        <div class="header">
+            <p>Depoimentos</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="slides-depoimentos">
+                        <div class="slide text-center">
+                            <img src="<?= get_template_directory_uri() ?>/assets/img/depoimentos/marli.png" alt="">
+                            <p class="nome">Marli do Nascimento Fidelis - Banco Sofisa</p>
+                            <p class="texto">"Amei ter participado no Curso de Liderança Feminina, foram dias incríveis de descobertas, inspirações e provocações pessoais. 
+                                Queria ressaltar o tema Liderança Situacional, foi surpreendente, com técnicas muito bem fundamentadas, me despertou para perceber e entender 
+                                melhor a capacidade individual das pessoas e de torna-las mais engajadas e produtivas."</p>
+                        </div>
+                        <div class="slide text-center">
+                            <img src="<?= get_template_directory_uri() ?>/assets/img/depoimentos/juliana.png" alt="">
+                            <p class="nome">Julliana Rocha Gracia do Amaral - Banco Finaxis</p>
+                            <p class="funcao">"Participei do curso de liderança feminina ABBC e foi uma experiência que agregou muito. 
+                                A turma estava estruturada com mulheres que atuam como líderes em diferentes áreas do mercado financeiro. 
+                                As aulas nos mostraram as diversas particularidades e desafios que enfrentamos nesse universo (quase sempre masculino). 
+                                Tivemos a oportunidade de trocar experiências, verificar que os nossos conflitos, anseios e ideias se assemelham em muitos momentos. 
+                                Pudemos nesse curso, através de avaliações, mensurar nosso desempenho como líder de forma ampla e com feedbacks dos colegas. 
+                                Foi uma super oportunidade de reavaliar e construir novos olhares na minha jornada como líder. "</p>
+                        </div>
+                        <div class="slide text-center">
+                            <img src="<?= get_template_directory_uri() ?>/assets/img/depoimentos/vania.png" alt="">
+                            <p class="nome">Vania Cazuza da Silva - CG2C</p>
+                            <p class="funcao">"Participar da primeira turma do Programa de Liderança Feminina N2 foi muito gratificante. Tive a oportunidade de conhecer instrutores especialistas e com exemplos de vida inspiradores, conteúdos significativos e atuais e trocar várias experiências com as demais executivas. Parabéns pela iniciativa e que continuem apoiando o crescimento da liderança feminina."</p>
                         </div>
                     </div>
                 </div>

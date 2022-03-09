@@ -264,7 +264,7 @@ body {
 }
 
 #professores .header {
-  background-color: #fa4f93;
+  background: url(../img/modulos.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -304,6 +304,48 @@ body {
 #professores .slick-next::before {
   font-size: 40px;
   color: #fa4f93;
+}
+
+#depoimentos {
+  margin-bottom: 30px;
+}
+
+#depoimentos .header {
+  background-color: #fa4f93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px 0;
+  max-width: 1366px;
+  margin: 0 auto 130px auto;
+}
+
+#depoimentos .header p {
+  margin: 0;
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+#depoimentos .slide {
+  padding: 0 20px;
+}
+
+#depoimentos .slide img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 35px;
+  max-width: 290px;
+}
+
+#depoimentos .slide .nome {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 30px 0 10px 0;
+}
+
+#depoimentos .slide .textp {
+  font-size: 14px;
 }
 
 #valor .container {
@@ -591,24 +633,34 @@ footer a:hover {
   }
 }
 
-ol { counter-reset: item; margin: 10px 0 !important; }
-ol>li{ display: block }
-ol>li:before { content: counters(item, ".") ". "; counter-increment: item }
-
-.privacy-policy table {
-    border-collapse: collapse;
-    margin: 40px 0 !important; 
+ol {
+  counter-reset: item;
+  margin: 10px 0 !important;
+}
+ol > li {
+  display: block;
+}
+ol > li:before {
+  content: counters(item, ".") ". ";
+  counter-increment: item;
 }
 
-.privacy-policy table, td, th {
-    border: solid 1px #333;
-    padding: 1rem;
+.privacy-policy table {
+  border-collapse: collapse;
+  margin: 40px 0 !important;
+}
+
+.privacy-policy table,
+td,
+th {
+  border: solid 1px #333;
+  padding: 1rem;
 }
 
 .privacy-policy table tr[aria-rowindex="1"],
 .privacy-policy table tr:first-child {
-    background-color: #999;
-    font-weight: 700;
+  background-color: #999;
+  font-weight: 700;
 }
 
 #cookie-notice {
@@ -616,14 +668,13 @@ ol>li:before { content: counters(item, ".") ". "; counter-increment: item }
 }
 
 #cookie-notice a:not(.btn-cookie) {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 700;
 }
 
 #cookie-notice a.btn-cookie {
   text-transform: uppercase;
   font-weight: 700;
-  
 }
 
 #cn-accept-cookie,
