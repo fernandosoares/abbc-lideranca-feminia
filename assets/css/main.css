@@ -194,9 +194,9 @@ body {
 }
 #modulos .modulo-1 .info,
 #modulos .modulo-2 .info {
-  font-size: 30px;
-  font-weight: 400;
-  font-style: italic;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 600;
 }
 
 #modulos .modulo-info .destaque {
