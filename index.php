@@ -247,7 +247,7 @@
                         <div class="slide text-center">
                             <img src="<?= get_template_directory_uri() ?>/assets/img/prof/anacarnauba.png" alt="">
                             <p class="nome">Ana Carnaúba</p>
-                            <p class="funcao">Head da D. Influencers Univ. Corporativa da Deloitte para Mercado no Brasil</p>
+                            <p class="funcao">Head da D. Influencers Univ. Corporativa da Deloitte para o Mercado no Brasil</p>
                         </div>
                         <div class="slide text-center">
                             <img src="<?= get_template_directory_uri() ?>/assets/img/prof/andre.png" alt="">
