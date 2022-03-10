@@ -1,6 +1,6 @@
 <section id="professores">
     <div class="header">
-        <p>Conheça os convidados</p>
+        <p>CONVIDADOS</p>
     </div>
     <div class="container">
         <div class="row">

@@ -16,7 +16,7 @@
                         <a class="nav-link" aria-current="page" href="#modulos">O Programa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#professores">Professores</a>
+                        <a class="nav-link" aria-current="page" href="#professores">Convidados</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#depoimentos">Depoimentos</a>
