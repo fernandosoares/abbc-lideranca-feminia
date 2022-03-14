@@ -5,7 +5,7 @@
                 <h2>A importância do curso</h2>
             </div>
             <div class="col-12 col-md-6 o-curso">
-                <p>Embora cada vez mais preparadas, as mulheres no Brasil ocupam apenas 37,4% dos cargos gerenciais, segundo os dados IBGE.</p>
+                <p>Embora cada vez mais preparadas, as mulheres no Brasil ocupam apenas 37,4% dos cargos gerenciais, segundo dados do IBGE.</p>
                 <p>O Programa de Liderança Feminina da Associação Brasileira de Bancos visa apoiar o desenvolvimento do protagonismo das mulheres, com embasamento técnico e comportamental.</p>
                 <p>Sob a chancela da ABBC e a curadoria da consultoria Fin4She, o curso traz módulos com grandes especialistas, cases e interação entre as participantes.</p>
             </div>
