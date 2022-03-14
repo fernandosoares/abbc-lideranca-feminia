@@ -29,7 +29,7 @@
                 <p class="titulo">07/04 - DESIGN YOUR LIFE</p>
                 <p class="descricao">Pensando a carreira dentro da sua vida</p>
 
-                <p class="titulo">11/04 - JORDANA DA C-LEVEL</p>
+                <p class="titulo">11/04 - JORNADA DA C-LEVEL</p>
                 <p class="descricao">Caminhos de uma jornada desafiadora e de oportunidades</p>
 
                 <p class="titulo">12/04 - PROTAGONISMO: VOCÊ NA LIDERANÇA DA SUA VIDA</p>
