@@ -9,7 +9,7 @@
                     <h3>ABBC apresenta:</h3>
                     <h1>PROGRAMA DE <b>LIDERANÇA FEMININA</b></h1>
                     <p>Em parceria com Fin4She</p>
-                    <p class="formacao">Formação personalizada para mulheres que buscam transformar a sua posição nos mercados financeiros e corporativo</p>
+                    <p class="formacao">Formação personalizada para mulheres que buscam transformar a sua posição no mercado financeiro.</p>
                 </div>
             </div>
         </div>

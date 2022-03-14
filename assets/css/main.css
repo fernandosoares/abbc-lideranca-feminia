@@ -145,10 +145,23 @@ body {
   font-weight: 600;
 }
 
+@media all and (max-width: 768px) {
+  #parceiros h2 {
+    font-size: 44px;
+    font-weight: 600;
+  }
+}
+
 #parceiros p {
   font-size: 22px;
   margin: 0 0 50px 0;
 }
+
+/* @media all and (max-width: 768px) {
+  #parceiros p.texto-parceiro {
+    text-align: justify;
+  }
+} */
 
 #parceiros img {
   margin: 0 0 20px 0;
@@ -167,6 +180,12 @@ body {
   color: #fff;
   font-size: 55px;
   font-weight: 700;
+}
+
+@media all and (max-width: 768px) {
+  #modulos .header p {
+    font-size: 28px;
+  }
 }
 
 #modulos .nosso-programa {
@@ -327,6 +346,12 @@ body {
   font-weight: 700;
 }
 
+@media all and (max-width: 768px) {
+  #depoimentos .header p {
+    font-size: 28px;
+  }
+}
+
 #depoimentos .slide {
   padding: 0 20px;
 }
@@ -351,6 +376,12 @@ body {
 #valor .container {
   padding: 100px 0;
   background-color: #d286f3;
+}
+
+@media all and (max-width: 768px) {
+  #valor .valores {
+    padding-left: 24px;
+  }
 }
 
 #valor .condicoes {

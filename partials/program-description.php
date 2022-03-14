@@ -19,10 +19,11 @@
                 <img src="<?=get_template_directory_uri()?>/assets/img/icone2.png" alt="">
                 <p>Networking entre executivas</p>
             </div>
-            <div class="col-12 col-md-3 text-center">
+            <!-- <div class="col-12 col-md-3 text-center">
                 <img src="<?=get_template_directory_uri()?>/assets/img/icone3.png" alt="">
+                <div style="min-height: 105px"></div>
                 <p>Disciplinas técnicas e comportamentais</p>
-            </div>
+            </div> -->
             <div class="col-12 col-md-3 text-center">
                 <img src="<?=get_template_directory_uri()?>/assets/img/icone4.png" alt="">
                 <p>Certificado ABBC</p>
