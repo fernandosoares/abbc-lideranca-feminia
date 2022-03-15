@@ -29,7 +29,7 @@
                     <div class="slide text-center">
                         <img src="<?=get_template_directory_uri()?>/assets/img/prof/carolina.png" alt="">
                         <p class="nome">Carolina Cavenaghi</p>
-                        <p class="funcao">Co-fundadora da Fin4She</p>
+                        <p class="funcao">Cofundadora da Fin4She</p>
                     </div>
                     <div class="slide text-center">
                         <img src="<?=get_template_directory_uri()?>/assets/img/prof/monalisa-gomes.jpeg" alt="">
