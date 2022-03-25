@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "soares-dev-environment"
+  },
+  "targets": {
+    "soares-dev-environment": {
+      "hosting": {
+        "soaresdev-lideranca-feminina": [
+          "soaresdev-lideranca-feminina"
+        ]
+      }
+    }
+  }
+}
